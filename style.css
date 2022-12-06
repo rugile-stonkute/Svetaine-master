@@ -29,6 +29,12 @@ a:visited{
 
 h1 {
     text-align: center;
+    padding-right: 70px;
+}
+
+.p-centered {
+    text-align: center;
+    padding-right: 70px;
 }
 
 /*navigacija*/
@@ -161,14 +167,14 @@ label {
     cursor: pointer;
 }
 
-img {
+.tableright img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
   }
 
-img:hover {
+.tableright img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
 
@@ -185,7 +191,7 @@ img:hover {
 
 
 input[type=checkbox]{
-    margin-right: 10px
+    margin-right: 2.9px
 }
 
 /*checkboxo pabaiga*/
@@ -211,8 +217,23 @@ input[type=checkbox]{
 }
 
 /*Šoninio dešinio lango galerijos pabaiga*/
-
 /*Šoninių langų stiliaus pabaiga*/
+
+
+/*logo*/
+
+.imglogo {
+    float: left; 
+    width: 70px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    
+}
+
+/*logo pabaiga*/
 
 
 
