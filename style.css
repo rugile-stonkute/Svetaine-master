@@ -10,6 +10,7 @@ body{background: #BA7F74;}
     margin: 0 auto;
     width: 1400px;
 }
+
 #header{
     padding: 30px;
     color: #f2f2f2;
@@ -336,15 +337,24 @@ table.kontaktai th, table.kontaktai td {
 
 /*Responsive*/
 
-@media all and (max-width: 550px){
-    #sides, #content{
-        flex-direction: column;
+@media screen and (max-width: 900px){
+    #content {
+        width: 900px;
+        display: block;
     }
-
-    #sides, #content{
-        padding: 5em 0 5em 0;
+    #sides{
+        width: 900px;
+        display: block;
+    }
+    
+    #meniu{
+        width: 900px;
+    }
+    #header, #footer{
+        width: 900px;
     }
 }
+
 
 /*Responsive pabaiga*/
 
