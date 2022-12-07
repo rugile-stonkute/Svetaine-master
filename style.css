@@ -44,6 +44,7 @@ h1 {
     text-indent: 30px;;
 }
 
+
 article {
     padding-left: 20px;
     padding-right: 20px;
@@ -73,12 +74,12 @@ article {
 
 #meniu a:hover {
     background-color: #7E6244;
-    color: white;
+    color: inherit;
 }
 
 #meniu a.active {
     background-color: #7E6244;
-    color: white;
+    color: inherit;
 }
 
 /*Turinys*/
@@ -165,6 +166,25 @@ input[type=text]:focus {
     border: 1px solid #555;
     color: black;
   }
+
+input[type=email] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: black;
+    text-align: left;
+  }
+
+ input[type=email]:focus {
+    border: 1px solid #555;
+    color: black;
+  }
+
 
 label {
     float:left;
@@ -266,30 +286,67 @@ input[type=checkbox]{
 
 /*Galerija nuotraukų grid*/
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
+.imggallery {
+    width: 295px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.cont-gallery {
+    display: flexbox;
     width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
+    height: 100%;
+}
 
 
 /*Galerija nuotraukų grid pabaiga*/
+
+/*Draugija*/
+
+
+
+/*Draugija pabaiga*/
+
+/*Kontaktai*/
+
+table.kontaktai {
+    padding-top: 300px;
+	width: 400px;
+	border-collapse:collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: solid;
+}
+
+table.kontaktai th, table.kontaktai td {
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #56241B;
+    text-align: left;
+}
+
+.p-kontaktai {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+
+/*Kontaktai pabaiga*/
+
+/*Responsive*/
+
+@media all and (max-width: 550px){
+    #sides, #content{
+        flex-direction: column;
+    }
+
+    #sides, #content{
+        padding: 5em 0 5em 0;
+    }
+}
+
+/*Responsive pabaiga*/
 
 
 
