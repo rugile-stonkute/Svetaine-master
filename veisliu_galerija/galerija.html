@@ -29,7 +29,7 @@
                 <div id="sides">
                     <h4>PRENUMERUOKITE MŪSŲ NAUJIENLAIŠKĮ</h4>
                     <hr class="hrsides">
-                    <form id="form">
+                    <form>
                         <label for="vardas">Vardas</label>
                             <input type="text" id="vardas" name="vardas" value="">
                         <label for="pavarde">Pavardė</label>
@@ -38,9 +38,13 @@
                             <input type="text" id="emailas" name="emailas" value="" placeholder="vardenis@domenas.lt">
                         <label for="telefonas">Telefono numeris</label>
                             <input type="text" id="telefonas" name="telefonas" value="" placeholder="+370 . . .">
+                        <label class="form-control">
+                            <input type="checkbox" name="checkbox" />Sutinku su taisyklėmis</label>    
                         <button class="button">Prenumeruoti</button>
                     </form>
                     <hr class="hrsides">
+                    
+
                 </div>
                 <div id="content">
                     <article>Galereja</article>
@@ -64,7 +68,7 @@
                     <hr class="hrsides">
                     <table>
                         <tr>
-                            <th class="tableright"><img class=""src="../foto/brukne.jpg" alt="Brukne" onclick="onClick(this)"></th>
+                            <th class="tableright"><a target="_blank" href="../foto/brukne.jpg"><img class="imageright" src="../foto/brukne.jpg" alt="Brukne" "></a></th>
                         </tr>
                     </table>
                 </div>
